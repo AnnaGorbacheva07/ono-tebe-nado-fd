@@ -6,7 +6,7 @@
 
 
 .header {
-    padding: 80px 52px 95px 50px;
+    padding: 92px 50px 96px 50px;
     display: grid;
     grid-template-columns: 1fr min-content 1fr;
     align-items: center;
@@ -70,6 +70,7 @@
     padding: 165px 50px 50px 50px;
     background-image: url(../images/cover.jpg);
     background-size: cover;
+    background-position: center;
     position: relative;
     z-index: -1;
 }
@@ -213,11 +214,12 @@
 .card__title {
     text-transform: uppercase;
     text-decoration: underline;
+    text-underline-position: under;
     line-height: 120%;
     font-size: 22px;
     color: white;
-    text-underline-position: under;
     z-index: 5;
+    
 }
 
 
