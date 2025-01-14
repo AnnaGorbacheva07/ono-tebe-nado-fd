@@ -90,7 +90,7 @@
 .cover__title {
     position: relative;
     font-size: 100px;
-    font-weight: 700px;
+    font-weight: 700;
     line-height: 115%;
     color:#FFFFFF;
     text-transform: uppercase;
@@ -129,7 +129,6 @@
     align-items: baseline;
     font-size: 22px;
     line-height: 28px;
-    word-spacing: 18px;
     z-index: 10;
     text-transform: uppercase;
     margin-top: 100px;
@@ -139,7 +138,7 @@
 
 .cover__description-text {
     color:white;
-    font-weight: 637px;
+    word-spacing: 18px;
 }
 
 
@@ -148,10 +147,10 @@
     background-color: transparent;
     text-transform: uppercase;
     color:white;
-    font-weight: 193px;
+    font-weight: 193;
     min-height: 51px;
     min-width: 256px;
-    border-color:white;
+    border: 1px solid #fff;
 }
 
 
